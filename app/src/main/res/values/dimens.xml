@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ubrcity_grid_reveal_height">350dp</dimen>
+
+
+    <dimen name="list_item_icon_margin_right">24dp</dimen>
+    <dimen name="list_item_icon_margin_end">@dimen/list_item_icon_margin_right</dimen>
+    <dimen name="list_item_padding_horizontal">16dp</dimen>
+    <dimen name="loading_indicator_size">42dp</dimen>
+    <dimen name="list_item_high_temperature_margin">12dp</dimen>
+    <dimen name="list_item_padding_vertical">12dp</dimen>
+    <dimen name="list_item_low_temperature_text_view_size">48dp</dimen>
+    <dimen name="list_item_date_left_margin">16dp</dimen>
+    <dimen name="list_item_date_start_margin">@dimen/list_item_date_left_margin</dimen>
+    <dimen name="data_latlong_space">4dp</dimen>
+    <dimen name="data_text_size">18dp</dimen>
+    <dimen name="list_icon">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_margin_standard">16dp</dimen>
+    <dimen name="text_margin_large">24dp</dimen>
+    <dimen name="title_large">24sp</dimen>
+    <dimen name="text_price">18sp</dimen>
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Urbain City</string>
+    <string name="title_activity_maps">Urbain City</string>
+    <string name="normal_card">Normal</string>
+    <string name="hybrid_card">Hybride</string>
+    <string name="satellite_card">Satellite</string>
+    <string name="terrain_card">Terrain</string>
+    <string name="ubrcity_route_label">Routes</string>
+    <string name="ubrcity_ordure_label">Ordures</string>
+    <string name="ubrcity_epicerie_label">Epiceries</string>
+    <string name="ubrcity_lcis_label">Lieux cultes</string>
+    <string name="ubrcity_setting_label">Parametres</string>
+    <string name="explorer">Explore</string>
+    <string name="inserer">Insert</string>
+    <string name="proximit">Proximity</string>
+    <string name="dropped_pin">Pinned</string>
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="select_image">Upload an Image</string>
+    <string name="ubrcity_arrondissement_hint">Borough</string>
+    <string name="ubrcity_quartier_hint">Neighborhood</string>
+    <string name="ubrcity_desciption_hint">Description</string>
+    <string name="ubrcity_latitude_hint">Latitude</string>
+    <string name="ubrcity_lonfitude_hint">Longitude</string>
+    <string name="ubrcity_valider">Registering</string>
+    <string name="potholes_label">potholes</string>
+    <string name="rubbish_label">Rubbish</string>
+    <string name="grocery_label">Grocery</string>
+    <string name="cult_label">Cult</string>
+</resources>

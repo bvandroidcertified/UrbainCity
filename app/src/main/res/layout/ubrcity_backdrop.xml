@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.urbaincity.Button.TextButton"
+        android:id="@+id/route_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubrcity_route_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.urbaincity.Button.TextButton"
+        android:id="@+id/ordure_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubrcity_ordure_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.urbaincity.Button.TextButton"
+        android:id="@+id/epicerie_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubrcity_epicerie_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.urbaincity.Button.TextButton"
+        android:id="@+id/lieu_cult_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubrcity_lcis_label" />
+
+
+
+
+</merge>

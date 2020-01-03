@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.urbaincity" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.urbaincity.autre" parent="Theme.urbaincity">
+        <item name="colorPrimary">#FFCF44</item>
+        <item name="colorPrimaryDark">#c46800</item>
+        <item name="colorAccent">#FD9725</item>
+        <item name="colorOnPrimary">#b0bac8</item>
+        <item name="colorError">#FD9725</item>
+    </style>
+
+
+    <style name="Widget.urbaincity.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorAccent</item>
+        <!-- <item name="android:theme">@style/Theme.Shrine</item> -->
+        <item name="android:theme">?theme</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.urbaincity.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.urbaincity.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.urbaincity.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.urbaincity.Backdrop" parent="">
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
+
+    <style name="Widget.urbaincity.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.urbaincity">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="BottomNavigationTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="colorPrimary">@color/colorBottomNavigation</item>
+    </style>
+
+    <style name="Theme.urbaincity.autre.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.urbaincity.autre.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.urbaincity.autre.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Widget.ubrcity.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.ubrcity.TextInputLayout.HintText</item>
+        <!-- <item name="hintTextColor">@color/textColorPrimary</item> -->
+        <item name="hintTextColor">?attr/colorPrimaryDark</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">@color/textInputOutlineColor</item>
+    </style>
+
+    <style name="TextAppearance.ubrcity.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.ubrcity.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.ubrcity.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+</resources>
